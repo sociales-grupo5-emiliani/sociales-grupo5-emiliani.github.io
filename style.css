@@ -76,7 +76,7 @@ body {
 
 .answer-dato-profe {
     color: darkred;
-} 
+}
 
 .answer-dato-grado {
     color: green;
@@ -103,7 +103,7 @@ hr {
 }
 
 .galeria {
-    margin-left: 42%;  
+    margin-left: 42%;
 }
 
 .contenedor-galeria {
@@ -206,7 +206,8 @@ hr {
         height: 50px;
     }
 
-    .title-principal, .grupo {
+    .title-principal,
+    .grupo {
         font-size: 100%;
     }
 
@@ -241,24 +242,29 @@ hr {
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
+
     /* Ajustes para los avances del grupo */
     .contenedor-galeria {
         width: 50%;
         height: 350px;
         margin-bottom: 20px;
-        padding: 20px; /* Añadir padding para más espacio interno */
+        padding: 20px;
+        /* Añadir padding para más espacio interno */
     }
 
     .contenedor-info {
-        padding: 10px 0; /* Añadir espacio superior e inferior */
+        padding: 10px 0;
+        /* Añadir espacio superior e inferior */
     }
 
     .info-texto p {
-        font-size: 14px; /* Aumentar el tamaño de fuente */
+        font-size: 14px;
+        /* Aumentar el tamaño de fuente */
     }
 
     .date-info {
-        margin-top: 10px; /* Añadir margen superior para más espacio */
+        margin-top: 10px;
+        /* Añadir margen superior para más espacio */
     }
 
     /* Ajustes para el cronograma */
@@ -266,21 +272,26 @@ hr {
         width: 50%;
         height: 430px;
         margin-bottom: 20px;
-        padding: 20px; /* Añadir padding para más espacio interno */
+        padding: 20px;
+        /* Añadir padding para más espacio interno */
     }
 
     .heaeder-cronograma {
-        height: 75px; /* Añadir padding para más espacio interno */
+        height: 75px;
+        /* Añadir padding para más espacio interno */
         width: 100%;
         border-radius: 10px;
-        }
+    }
 
     .title-crono {
-        font-size: 15px; /* Ajustar tamaño de fuente para que encaje mejor */
-        line-height: 1.2; /* Ajustar la altura de línea */
+        font-size: 15px;
+        /* Ajustar tamaño de fuente para que encaje mejor */
+        line-height: 1.2;
+        /* Ajustar la altura de línea */
     }
 
     .body-cronograma {
-        padding: 10px; /* Añadir padding para más espacio interno */
+        padding: 10px;
+        /* Añadir padding para más espacio interno */
     }
 }
