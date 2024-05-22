@@ -243,10 +243,14 @@ hr {
 /* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
 
+    .image-avance {
+        width: 70%;
+        height: 180px;
+    }
     /* Ajustes para los avances del grupo */
     .contenedor-galeria {
         width: 50%;
-        height: 350px;
+        height: 570px;
         margin-bottom: 20px;
         padding: 20px;
         /* Añadir padding para más espacio interno */
@@ -270,7 +274,7 @@ hr {
     /* Ajustes para el cronograma */
     .espacio-cronograma {
         width: 50%;
-        height: 430px;
+        height: 490px;
         margin-bottom: 20px;
         padding: 20px;
         /* Añadir padding para más espacio interno */
