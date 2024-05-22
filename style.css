@@ -91,7 +91,7 @@ body {
 }
 
 .lista-integrantes label {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 hr {
@@ -197,7 +197,7 @@ hr {
 @media (max-width: 910px) {
     .header-principal {
         flex-direction: column;
-        height: auto;
+        height: 90%;
         text-align: center;
     }
 
