@@ -299,3 +299,9 @@ hr {
         /* Añadir padding para más espacio interno */
     }
 }
+
+@media (max-width: 440px) {
+    .espacio-cronograma {
+        height: 550px;
+    }
+}
